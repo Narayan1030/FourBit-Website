@@ -43,12 +43,12 @@ body {
 } */
 }
 .container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   /* place-items: center; */
   background: var(--bg-color);
   color: var(--text-color);
   margin: 0 auto;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   align-items: center;
   /* text-align: center; */
 }

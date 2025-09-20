@@ -4,7 +4,7 @@
   align-items: center;
   background: var(--bg-color);
   max-width: 1200px;
-  /* padding: 10px 10%; */
+  padding: 10px 10%;
   color: var(--text-color);
   font-family: Arial, sans-serif;
   position: sticky;
