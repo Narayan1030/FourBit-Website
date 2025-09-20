@@ -1,0 +1,143 @@
+/* Work.css */
+
+/* Container */
+.featured-work-container {
+  /* max-width: 1200px; */
+  margin: 4rem auto;
+  padding: 0 10%;
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  background: var(--bg-color);
+}
+
+/* Title + Description Row */
+.featured-work-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin-bottom: 2rem; */
+}
+
+.featured-work-description h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.featured-work-description p {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.work-view {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  gap: 0.5rem;
+  align-items: center;
+}
+.work-view p {
+  color: var(--special-text);
+}
+
+.work-view button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--button-bg); /* Indigo/blue */
+  color: var(--button-text);
+  font-weight: 200;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background: var(--button-bg);
+  color: var(--button-text);
+}
+
+.work-view button:hover {
+  background: #4338ca;
+}
+
+/* Cards Grid */
+.featured-work-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+/* Individual Card */
+.work-card {
+  background: var(--card-bg);
+  color: var(--text-color);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid rgba(194, 181, 181, 0.395);
+}
+
+.work-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Video/Image Area */
+.img-or-vid {
+  background: var(--bg-color);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 180px;
+}
+.vid {
+  /* background-color: rgb(45, 40, 40); */
+  border-radius: 10px;
+  border: 0.1px dotted #af9c9c;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+  width: 80%;
+  color: var(--special-text);
+}
+
+.placeholder-image {
+  font-size: 0.8rem;
+  color: #c3b6b6;
+  text-align: center;
+}
+
+/* Details Section */
+.other-details {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.org-service h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.org-service p {
+  font-size: 0.7rem;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+/* Result Badge */
+.other-details > p {
+  display: inline-block;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.7rem;
+  background: #3e3939f7;
+  border-radius: 20px;
+  color: #ddd;
+}

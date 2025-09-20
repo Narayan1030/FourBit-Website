@@ -1,0 +1,121 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+} */
+.hero-description {
+  flex: 1;
+  min-width: 300px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  flex-wrap: wrap;
+}
+.topic {
+  width: 140px;
+  background: #222;
+  color: #aaa;
+  display: block;
+  padding: 6px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.topic-1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+  justify-content: center;
+  font-weight: 800;
+}
+p {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 12px 22px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: var(--button-bg);
+  color: var(--button-text);
+}
+.btn.primary:hover {
+  background: #7a6cff;
+}
+.btn.secondary {
+  background: #2d2d2d;
+  color: white;
+}
+.btn.secondary:hover {
+  background: #3d3d3d;
+}
+.features {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  color: var(--special-text);
+  font-size: 14px;
+}
+.hero-services {
+  background: var(--bg-color);
+  /* flex: 1; */
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.services-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 70px;
+  border-radius: 20px;
+  border: 4px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  background-image: linear-gradient(var(--bg-color)),
+    linear-gradient(135deg, #9b06ff, #ff0051);
+  transition: background-color 0.5s ease, color 0.5s ease,
+    border-color 0.5s ease;
+}
+.service {
+  background: var(--bg-color);
+  padding: 20px;
+  border: 0.5px solid #8a6b6b6b;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.service:hover {
+  background: var(--card-bg);
+}
+
+.hero-bottom {
+  color: var(--text-color);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.p {
+  margin: 0;
+  letter-spacing: 10px;
+}
