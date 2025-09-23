@@ -29,12 +29,13 @@ a:hover {
 body {
   /* margin: 0; */
   display: flex;
-  place-items: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
   background-color: var(--bg-color);
   color: var(--text-color);
-  transition: background-color 0.5s ease, color 0.5s;
+  /* transition: background-color 0.3s ease, color 0.3s; */
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -43,13 +44,16 @@ body {
 } */
 }
 .container {
-  /* max-width: 1200px; */
-  /* place-items: center; */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 1200px;
   background: var(--bg-color);
   color: var(--text-color);
-  margin: 0 auto;
-  /* padding: 0 1rem; */
+  padding: 0 5%;
   align-items: center;
+  margin: 0 auto;
+
   /* text-align: center; */
 }
 
@@ -92,4 +96,8 @@ button:focus-visible {
 .work-card {
   transition: background-color 0.5s ease, color 0.5s ease,
     border-color 0.5s ease;
+}
+*{
+    transition: background-color 0.3s ease, color 0.3s;
+
 }

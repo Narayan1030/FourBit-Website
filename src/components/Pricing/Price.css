@@ -1,11 +1,10 @@
 .pricing-container {
   display: flex;
-  padding-left: 30px;
   flex-direction: column;
   font-family: "Inter", sans-serif;
-  padding: 60px 10%;
-  /* margin: 0; */
-  /* width: 100%; */
+  /* padding: 60px 10%; */
+  margin-top: 50px;
+  width: 100%;
 }
 .pricing-description {
   display: flex;

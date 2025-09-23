@@ -4,9 +4,9 @@
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  padding: 60px 10%;
+  /* padding: 60px 10%; */
   /* margin: 10px; */
-  /* margin-left: 50px;  */
+  margin-top: 50px; 
   /* gap: 15px; */
   /* width: 100%; */
   font-family: "Inter", sans-serif;

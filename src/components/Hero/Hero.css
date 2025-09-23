@@ -8,13 +8,17 @@
 .hero-description {
   flex: 1;
   min-width: 300px;
+  /* padding-top: 30px; */
 }
 .hero-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 10%;
+  width: 100%;
+  padding: 0 rem;
   flex-wrap: wrap;
+  margin: 60px 0;
+  font-family: 'Poppins', sans-serif;
 }
 .topic {
   width: 140px;
@@ -27,9 +31,12 @@
   margin-bottom: 15px;
 }
 .topic-1 {
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 0px; */
+  /* margin-bottom: 20px; */
   font-size: 40px;
-  justify-content: center;
+  /* justify-content: center; */
   font-weight: 800;
 }
 p {
@@ -92,6 +99,11 @@ p {
   transition: background-color 0.5s ease, color 0.5s ease,
     border-color 0.5s ease;
 }
+.hero-services:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
 .service {
   background: var(--bg-color);
   padding: 20px;
