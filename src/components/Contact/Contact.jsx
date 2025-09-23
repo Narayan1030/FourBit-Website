@@ -31,6 +31,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            <hr />
 
 
         </section>

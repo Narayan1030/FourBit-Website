@@ -1,6 +1,6 @@
 import "./Navbar.css";
 import { useState } from "react";
-import "./../../../public/4bitlogo.png"
+import logo from "./../../assets/4bitlogo.png"
 
 // const Navbar = ({light, setLight}) => {
     
@@ -13,7 +13,7 @@ export default function Navbar({light, setLight}){
     <>
       <div className="navbar">
         <div className="logo">
-          <img src="4bitlogo.png" alt="company logo" className="fourbitlogo" />
+          <img src={logo} alt="company logo" className="fourbitlogo" />
         </div>
         <div className="services">
           <ul className="nav-services">

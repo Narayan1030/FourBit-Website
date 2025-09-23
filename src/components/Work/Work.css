@@ -27,7 +27,7 @@
 
 .featured-work-description p {
   font-size: 1rem;
-  color: #aaa;
+  color: var(--special-text);
 }
 
 .work-view {
@@ -56,7 +56,7 @@
 }
 
 .work-view button:hover {
-  background: #4338ca;
+  background: #7a6cff;
 }
 
 /* Cards Grid */
@@ -85,7 +85,7 @@
 
 /* Video/Image Area */
 .img-or-vid {
-  background: var(--bg-color);
+  background: var(--icon-bg);
   border-radius: 10px;
   overflow: hidden;
   display: flex;

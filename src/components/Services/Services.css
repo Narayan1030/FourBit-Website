@@ -28,6 +28,11 @@
   cursor: pointer;
   transition: background 0.3s ease;
 }
+.service-container button:hover{
+  background: #7a6cff;
+
+}
+
 .service-container h1 {
   font-size: 30px;
   margin: 5px;
@@ -129,3 +134,14 @@
 .service-tools > button:hover {
   background-color: rgba(135, 116, 116, 0.537);
 }
+
+/* @media(max-width:600px){
+  .service-container{
+    display: flex;
+    
+    /* flex-direction: column; */
+  }
+  /* .card{
+    display: grid;
+    grid-template-columns: repeat(2.1fr);
+} }*/

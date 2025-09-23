@@ -7,6 +7,8 @@ import Process from './components/Process/Process.jsx'
 import Price from './components/Pricing/Price.jsx'
 import Work from './components/Work/Work.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import Review from './components/Review/Review.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
 const [light, setLight] = useState(false);
@@ -33,7 +35,10 @@ const [light, setLight] = useState(false);
         <Work />
         <Process/>       
         <Price />
-       <Contact/>
+        <Review />
+        <Contact />
+        <Footer />
+
       </div>
 
     </>
