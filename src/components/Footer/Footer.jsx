@@ -20,7 +20,7 @@ const Footer = () => {
                         </div>
                         
                         <p>Building digital products and growth engines from Nepal</p>
-                        <p style={{
+                        <p className="copyright" style={{
                                 display: "flex",
                                 flexDirection:"row",
                                 gap:"2px",

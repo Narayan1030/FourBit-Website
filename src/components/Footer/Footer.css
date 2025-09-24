@@ -114,5 +114,41 @@
 
 /* .footer-contact svg {
   font-size: 16px;
-  /* color: #fff; */
-} */
+  /* color: #fff; }*/
+
+
+
+/* mobile responsive*/
+@media(max-width: 480px){
+  .footer-container{
+    max-width: 95%;
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+  .footer-contact p{
+    font-size: 0.7rem;
+  }
+  
+  .footer-company li,
+  .footer-resources li{
+    font-size: 0.7rem;
+  }
+  .footer-describe p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+  }
+  .footer-nav{
+    width: 100%;
+  }
+  .footer-describe{
+    width: 100%;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -90,3 +90,18 @@
 .price-card button:hover{
   background: #7a6cff;
 }
+
+
+@media(max-width: 480px){
+  .pricing-container{
+    max-width: 95%;
+    width: 100%;
+  }
+  .pricing-card{
+    grid-template-columns: 1fr;
+  }
+  .price-card button{
+    /* font-size: 0.5rem; */
+    font-weight: 500;
+  }
+}

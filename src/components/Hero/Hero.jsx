@@ -7,6 +7,8 @@ import { HiSpeakerphone } from "react-icons/hi";
 import { LuScale3D } from "react-icons/lu";
 import { BsRocketTakeoffFill } from "react-icons/bs";
 import { PiClockLight } from "react-icons/pi";
+import { HiOutlineShieldCheck } from "react-icons/hi2";
+
 
 export default function Hero() {
   return (
@@ -31,7 +33,7 @@ export default function Hero() {
             <button className="btn secondary">See Our Work</button>
           </div>
           <div className="features">
-            <span>🛡 Warranty 5–10 yrs</span>
+            <span><HiOutlineShieldCheck/> Warranty 5–10 yrs</span>
             <span>
               <PiClockLight /> On-time delivery
             </span>

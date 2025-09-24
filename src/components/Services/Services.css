@@ -6,7 +6,7 @@
   /* align-items: center; */
   /* padding: 60px 10%; */
   /* margin: 10px; */
-  margin-top: 50px; 
+  margin-top: 50px;
   /* gap: 15px; */
   /* width: 100%; */
   font-family: "Inter", sans-serif;
@@ -21,26 +21,24 @@
   /* margin-right: 0; */
   border-radius: 8px;
   border: none;
-  background: var(--button-bg); /* Indigo/blue */
+  background: var(--button-bg);
   color: var(--button-text);
   font-weight: 200;
-  font-size: 15px;
+  font-size: 0.9rem;
   cursor: pointer;
   transition: background 0.3s ease;
 }
-.service-container button:hover{
+.service-container button:hover {
   background: #7a6cff;
-
 }
 
 .service-container h1 {
-  font-size: 30px;
-  margin: 5px;
+  font-size: 2rem;
+  margin: 0.1rem;
   /* padding: 5px; */
 }
 .service-descriptions {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   justify-content: space-between;
   color: var(--special-text);
@@ -52,7 +50,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
-  gap: 25px;
+  gap: 1rem;
   /* padding: 10px; */
   /* margin:px; */
 }
@@ -66,13 +64,13 @@
 .service-card {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 1rem;
   background-color: var(--card-bg);
   /* width: 250px;
     height: 230px; */
   border: 1px solid rgba(194, 181, 181, 0.395);
   border-radius: 10px;
-  padding: 15px;
+  padding: 1rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .service-card:hover {
@@ -94,7 +92,7 @@
   /* padding: 0; */
 }
 .service-expertise {
-  font-size: 10px;
+  font-size: 0.65rem;
   background-color: rgb(103, 21, 170);
   color: white;
   border: none;
@@ -108,22 +106,22 @@
 
 .service-details {
   margin: 0;
-  padding: 0;
+  padding-bottom: 0;
 }
 .service-detail-title {
-  font-size: 20px;
+  font-size: 1.3rem;
   margin: 0;
   padding: 0;
 }
 .service-detail-para {
-  font-size: 13px;
+  font-size: 0.9rem;
   margin: 0;
   padding: 0;
   color: var(--special-text);
 }
 .service-tools > button {
   margin: 5px;
-  font-size: 10px;
+  font-size: 0.58rem;
   font-weight: 800;
   padding: 5px;
   background-color: var(--bg-color);
@@ -135,13 +133,106 @@
   background-color: rgba(135, 116, 116, 0.537);
 }
 
-/* @media(max-width:600px){
-  .service-container{
+@media (max-width: 480px) {
+  .service-container {
+    max-width: 95%;
+    width: 100%;
     display: flex;
-    
+    justify-content: start;
+    /* margin-left: 1rem; */
     /* flex-direction: column; */
   }
-  /* .card{
+  .service-container-description h1 {
+    font-size: 1.5rem;
+  }
+  .service-descriptions {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    /* max-width: 90%; */
+    gap: 10px;
+    /* border: 1px solid black; */
+    /* width: 450px; */
+    justify-content: space-between ;
+    align-items: center;
+    overflow-x: unset;
+    /* flex-direction: column; */
+    
+  }  
+  .service-container-description p {
+    /* border: 1px solid red; */
+    /* margin-right: 0; */
+    font-size: 0.7rem;
+    flex: 1 1 0;
+    width: 100%;
+    word-break: break-word;
+    white-space: normal;
+    /* flex: 3; */
+    /* flex-wrap: wrap; */
+  }
+
+  .service-descriptions button {
+    font-size: 0.5rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: 5px;
+    font-weight: 400;
+    flex: 0 0 auto;
+    /* margin: 0; */
+    /* width: 9rem; */
+  }
+  .service-expertise{
+    font-size: 0.7rem;
+  }
+  .service-detail-title{
+    font-size: 1.2rem;
+  }
+  .service-detail-para{
+    font-size: 0.7rem;
+  }
+  .card {
     display: grid;
-    grid-template-columns: repeat(2.1fr);
-} }*/
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}
+
+
+
+
+@media(max-width: 350px){
+  .service-container{
+    max-width: 95%;
+    width: 100%;
+  }
+  .service-container-description h1 {
+    font-size: 1rem;
+  }
+  .service-container-description p {
+    font-size: 0.5rem;
+  }
+  .service-descriptions {
+    gap: 20px;
+    
+    /* flex-grow: ; */
+  }
+  .service-descriptions button {
+    font-size: 0.3rem;
+    padding: 10px;
+    font-weight: 400;
+    /* width: 9rem; */
+  }
+  .service-expertise{
+    font-size: 0.4rem;
+  }
+  .service-detail-title{
+    font-size: 0.9rem;
+  }
+  .service-detail-para{
+    font-size: 0.5rem;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+}

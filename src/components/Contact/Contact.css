@@ -100,3 +100,10 @@ hr {
   margin-bottom: 1.4rem;
   margin-top: 0;
 }
+
+@media(max-width: 480px){
+  .contact-section{
+    max-width: 95%;
+    width: 100%;
+  }
+}

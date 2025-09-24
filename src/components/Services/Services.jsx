@@ -25,7 +25,7 @@ export default function Services(){
             logo : <BiCodeAlt />,
             status: "Expert",
             title: "Software Development",
-            description: "Scalable customsoftware tailoredto your busines workflows.",
+            description: "Scalable customsoftware tailored to your busines workflows.",
             tools:["APIs","Microservices","Cloud"]
         },
         {
@@ -46,7 +46,7 @@ export default function Services(){
             <h1>What we do</h1>
         <div className="service-descriptions">
             <p>End-to-end deliveryfrom discovery to launch — with measurable impact.</p>
-            <button>Request Proposal &gt;</button>
+            <button>Request Proposal</button>
         </div>
         </div>
         <div className="card">

@@ -93,3 +93,10 @@
   margin-top: 0.5rem;
   color: var(--review-secondary-text);
 }
+
+@media(max-width: 480px){
+  .review-section{
+    max-width: 95%;
+    width: 100%;
+  }
+}

@@ -2,7 +2,7 @@
 
 /* Container */
 .featured-work-container {
-  /* max-width: 1200px; */
+  max-width: 1200px;
   margin-top: 50px;
   /* padding: 0 10%; */
   color: var(--text-color);
@@ -140,4 +140,34 @@
   background: #3e3939f7;
   border-radius: 20px;
   color: #ddd;
+}
+@media(max-width: 480px){
+  .featured-work-container{
+    max-width: 95%;
+    width: 100%;
+  }
+  .featured-work-description h2{
+    font-size: 1.5rem;
+  }
+  .work-view{
+    display: flex;
+    /* flex-grow: 4 1; */
+    /* width: 90%; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .work-view p{
+    font-size: 0.7rem;
+  }
+  .work-view button{
+    font-size: 0.5rem;
+    padding: 0.35rem 0.6rem;
+    font-weight: 400;
+   }
+  .featured-work-card{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }
