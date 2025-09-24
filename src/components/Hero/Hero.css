@@ -140,6 +140,49 @@ p {
 }
 
 
+/* media queries */
+
+@media(max-width: 768px){
+  .hero-container{
+    max-width: 95%;
+    width: 100%;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    gap: 20px;
+    margin: 20px 0;
+    /* margin-left: 5%; */
+    /* padding-left: ; */
+  }
+  .topic-1 {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0px; */
+  /* margin-bottom: 20px; */
+  font-size: 1.5rem;
+  /* justify-content: center; */
+  font-weight: 800;
+  }
+  .features{
+    font-size: 0.7;
+  }
+  .services-box{
+    gap: 0.9;
+    padding: 30px;
+
+  }
+  .service {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 0.5rem;
+  }
+  .services-box{
+    border: 0.2rem solid transparent;
+
+  }
+
+
+}
+
 @media(max-width: 480px){
   .hero-container{
     max-width: 95%;

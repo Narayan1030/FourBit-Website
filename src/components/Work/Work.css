@@ -133,8 +133,8 @@
 /* Result Badge */
 .other-details > p {
   display: inline-block;
-  padding: 0.3rem 0.7rem;
-  font-size: 0.7rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.4rem;
   background: #3e3939f7;
   border-radius: 20px;
   color: #ddd;
