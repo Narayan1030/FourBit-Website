@@ -6,6 +6,7 @@
   --button-text: #ffffff;
   --icon-bg: #3d3a3ac7;
   --special-text: #aaa;
+  --hover-text: #3226cf;
 }
 .light {
   --bg-color: #fffffff2;
@@ -47,7 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 1200px;
+  max-width: 1024px;
   background: var(--bg-color);
   color: var(--text-color);
   padding: 0 5%;
@@ -118,7 +119,7 @@ button:hover {
 
 @media(max-width: 350px){
   .container{
-    max-width: 100%;
+    max-width: 95%;
     width: 100%;
     padding: 1rem;
     border: 1px solid blue;
