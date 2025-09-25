@@ -30,22 +30,25 @@ form {
 }
 
 .contact-form p,
-.contact-info p {
+.contact-info a {
   margin-bottom: 15px;
   font-size: 14px;
   padding: 0;
   color: var(--special-text);
 }
-.contact-info p {
+.contact-info .special {
+  color: var(--special-text);
+}
+.contact-info a{
   color: var(--text-color);
   display: flex;
   align-items: center;
   gap: 5px;
 }
-.contact-info .special {
-  color: var(--special-text);
+.contact-info a:hover{
+  color: #4f46e5;
+  
 }
-
 /* Inputs */
 .contact-form input,
 .contact-form textarea {

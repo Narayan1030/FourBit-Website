@@ -37,7 +37,7 @@ const [light, setLight] = useState(false);
         <Price />
         <Review />
         <Contact />
-        <Footer />
+        <Footer light={light}/>
 
       </div>
 

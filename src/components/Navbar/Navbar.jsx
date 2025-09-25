@@ -1,6 +1,8 @@
 import "./Navbar.css";
 import { useState, useEffect, useRef } from "react";
-import logo from "./../../assets/4bitlogo.png";
+import whitelogo from "./../../assets/4bitlogowhite.png";
+import blacklogo from "./../../assets/4bitlogoblack.png";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
 // const Navbar = ({light, setLight}) => {
@@ -34,7 +36,7 @@ export default function Navbar({ light, setLight }) {
     <>
       <div className="navbar">
         <div className="logo">
-          <img src={logo} alt="company logo" className="fourbitlogo" />
+          <img src={light?`${blacklogo}`:`${whitelogo}`} alt="company logo" className="fourbitlogo" />
         </div>
         <div className="services" ref={menuRef}>
   

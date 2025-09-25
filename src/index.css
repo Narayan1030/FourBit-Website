@@ -110,7 +110,7 @@ button:hover {
     padding: 0 5%;
     justify-content: center;
     align-items: center;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
 
     /* margin-left: 1rem; */
   }
@@ -140,8 +140,7 @@ button:hover {
     max-width: 95%;
     width: 100%;
     padding: 1rem;
-    border: 1px solid blue;
-
+    /* border: 1px solid blue; */
   }
   body{
     display: flex;

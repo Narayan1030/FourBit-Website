@@ -53,11 +53,11 @@ p {
 }
 .btn {
   padding: 0.8rem 0.9rem;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   border-radius: 8px;
   border: none;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .btn.primary {
@@ -107,7 +107,7 @@ p {
   border: 0.39rem solid transparent;
   background-clip: padding-box, border-box;
   background-origin: border-box;
-  background-image: linear-gradient(var(--bg-color)),linear-gradient(135deg, #9b06ff, #ff0051);
+  background-image: linear-gradient(var(--bg-color)),linear-gradient(135deg, #9b06ff, #ff0000);
   transition: background-color 0.5s ease, color 0.5s ease,
     border-color 0.5s ease;
   

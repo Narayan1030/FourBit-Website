@@ -5,6 +5,7 @@
   background: var(--bg-color);
   max-width: 1024px;
   width: 100%;
+  margin-bottom: 20px;
   color: var(--text-color);
   font-family: Arial, sans-serif;
   position: sticky;
@@ -129,7 +130,8 @@ input:checked + .slider:before {
     max-width: 95%;
     width: 100%;
     justify-content: space-between;
-    /* margin: 0; */
+    /* margin-bottom: 0px; */
+    margin: 0;
     padding: 0;
     /* flex-grow:  1; */
     /* align-items: center; */
@@ -174,7 +176,7 @@ input:checked + .slider:before {
     max-width: 95%;
     width: 100%;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     padding: 0;
 
   }

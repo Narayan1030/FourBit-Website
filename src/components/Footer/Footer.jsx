@@ -1,12 +1,11 @@
 import React from 'react'
 import { FiMail,FiPhone } from "react-icons/fi";
 import { PiCopyrightBold } from "react-icons/pi";
-
-import './../../assets/4bitlogo.png'
-import logo from "./../../assets/4bitlogo.png"
+import whitelogo from "./../../assets/4bitlogowhite.png";
+import blacklogo from "./../../assets/4bitlogoblack.png";
 import './Footer.css'
 
-const Footer = () => {
+const Footer = ({light}) => {
     return (
         
            
@@ -14,7 +13,7 @@ const Footer = () => {
                     <div className="footer-describe">
                         <div className="logo">
                             <img 
-                             src={logo} 
+                             src={light?`${blacklogo}`:`${whitelogo}`} 
                              alt="FourBit Logo" 
                             className="footer-img" />
                         </div>
