@@ -91,6 +91,15 @@
   background: #7a6cff;
 }
 
+@media(max-width:768px){
+  .pricing-container{
+    max-width: 95%;
+    width: 100%;
+  }
+  .pricing-head p{
+    font-size: 8px;
+  }
+}
 
 @media(max-width: 480px){
   .pricing-container{

@@ -128,6 +128,25 @@
   background-color: rgba(135, 116, 116, 0.537);
 }
 
+
+/* media queries */
+@media(max-width: 768px){
+  .service-container {
+    max-width: 95%;
+    width: 100%;
+    /* display: flex;
+    justify-content: start; */
+    /* margin-left: 1rem; */
+    /* flex-direction: column; */
+  }
+    .card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+  }
+}
+
+
 @media (max-width: 480px) {
   .service-container {
     max-width: 95%;
@@ -194,40 +213,3 @@
 
 
 
-@media(max-width: 350px){
-  .service-container{
-    max-width: 95%;
-    width: 100%;
-  }
-  .service-container-description h1 {
-    font-size: 1rem;
-  }
-  .service-container-description p {
-    font-size: 0.5rem;
-  }
-  .service-descriptions {
-    gap: 20px;
-    
-    /* flex-grow: ; */
-  }
-  .service-descriptions button {
-    font-size: 0.3rem;
-    padding: 10px;
-    font-weight: 400;
-    /* width: 9rem; */
-  }
-  .service-expertise{
-    font-size: 0.4rem;
-  }
-  .service-detail-title{
-    font-size: 0.9rem;
-  }
-  .service-detail-para{
-    font-size: 0.5rem;
-  }
-  .card {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-}

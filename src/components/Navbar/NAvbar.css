@@ -152,9 +152,10 @@ input:checked + .slider:before {
     position: absolute;
     top: 4rem;
     left: 0;
+    margin: 0 auto;
     background-color: var(--card-bg);
-    /* right: 2rem; */
-    width: 100%;    
+    /* right: auto; */
+    width: 95%;    
   }
   .mobile-nav li{
     list-style: none;
@@ -198,6 +199,9 @@ input:checked + .slider:before {
   }
   .hamburger-menu{
     display: inline;
+  }
+  .mobile-nav{
+    width: 90%;
   }
   
 }

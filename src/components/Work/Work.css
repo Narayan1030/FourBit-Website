@@ -141,6 +141,18 @@
 }
 
 
+@media(max-width: 768px){
+   .featured-work-container{
+    max-width: 95%;
+    width: 100%;
+  }
+    .featured-work-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+  }
+}
+
 @media(max-width: 480px){
   .featured-work-container{
     max-width: 95%;

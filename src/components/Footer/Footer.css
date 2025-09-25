@@ -116,6 +116,43 @@
   font-size: 16px;
   /* color: #fff; }*/
 
+  @media(max-width: 768px){
+    .footer-container{
+    max-width: 95%;
+    width: 100%;
+    flex-direction: column-reverse;
+    gap: 0.8rem;
+    margin-bottom: 0.2rem;
+     /* justify-content: start;  */
+    /*align */
+    width: 100%;
+  }
+  .footer-company h3,
+  .footer-resources h3,
+  .footer-contact h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--text-color);
+}
+  .footer-contact p{
+    font-size: 0.9rem;
+  }
+    .footer-nav{
+    width: 100%;
+  }
+  .footer-describe{
+    width: 100%;
+  }
+    .footer-company li,
+  .footer-resources li{
+    font-size: 0.9rem;
+  }
+  .copyright{
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 /* mobile responsive*/
