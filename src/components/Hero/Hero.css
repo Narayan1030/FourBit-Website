@@ -33,9 +33,13 @@
   flex-direction: column;
   /* gap: 0px; */
   /* margin-bottom: 20px; */
-  font-size: 2rem;
+  font-size: 1.8rem;
   /* justify-content: center; */
   font-weight: 800;
+
+  & p{
+    font-size: 0.8rem;
+  }
 }
 p {
   margin-bottom: 25px;
@@ -48,7 +52,8 @@ p {
   margin-bottom: 20px;
 }
 .btn {
-  padding: 12px 22px;
+  padding: 0.8rem 0.9rem;
+  font-size: 0.5rem;
   border-radius: 8px;
   border: none;
   cursor: pointer;
@@ -76,7 +81,7 @@ p {
   /* justify-content: center; */
   gap: 1.4rem;
   color: var(--special-text);
-  font-size: 0.87rem;
+  font-size: 0.7rem;
 }
 .features span{
   display: flex;
@@ -86,17 +91,18 @@ p {
 .hero-services {
   background: var(--bg-color);
   /* flex: 1; */
-  /* min-width: 300px; */
+  /* min-width: 200px; */
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 20px;
 
 }
 .services-box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.2rem;
-  padding: 70px;
+  gap: 1rem;
+  padding: 50px;
   border-radius: 20px;
   border: 0.39rem solid transparent;
   background-clip: padding-box, border-box;
@@ -113,11 +119,11 @@ p {
 
 .service {
   background: var(--bg-color);
-  padding: 20px;
+  padding: 10px;
   border: 0.5px solid #8a6b6b6b;
   border-radius: 12px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   transition: 0.3s;
 }
 
